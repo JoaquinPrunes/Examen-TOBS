@@ -1,0 +1,186 @@
+.pricing-form{
+
+font-size: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
+
+.contenedor{
+
+	width: 70%;
+	margin-left: 10%;
+	align-items: center;
+}
+
+.pricing-form__h1{
+
+	font-size: 2.5em;
+	font-family: 'Rubik', sans-serif;
+	line-height: 3;
+	font-weight: 90em;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.contenido{ 
+
+ 	padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+
+ }
+
+.hr {
+  height: 2.5px;
+  width: 2.5%;
+  background-color: #3CB371;
+  border-radius: 2em;
+  margin-bottom: 20px;
+}
+
+.pricing-form__a--monthly{
+
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	text-align: center;
+	border-radius: 2em;
+	margin: auto;
+	padding: 10px 25px;
+	background-color: #3CB371;
+	color: white;
+	
+
+}
+
+.pricing-form__a--annualy{
+
+
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	text-align: center;
+	border-radius: 2em;
+	margin-right: 50px; 
+	margin: auto;
+	padding: 10px 25px;
+	background-color: #F5FFFA;
+	color: #3CB371;
+	
+}
+
+.pricing-form__a--monthly2{
+
+font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	text-align: center;
+	border-radius: 2em;
+	margin: auto;
+	padding: 10px 25px;
+	background-color: #F5FFFA;
+	color: #3CB371;
+	
+
+}
+
+.pricing-form__a--annualy2{
+	
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	text-align: center;
+	border-radius: 2em;
+	margin-right: 50px; 
+	margin: auto;
+	padding: 10px 25px;
+	background-color: #3CB371;
+	color: #F5FFFA;
+	
+}
+
+
+
+.options-form{
+	font-size: 20px;
+	padding: 200px;
+	text-align: center;
+	padding: 1em;
+	box-shadow: 2px 2px 5px #999;
+	border-radius: 2em;
+}
+
+
+.features{
+	list-style: none;
+	margin-top: 20px;
+	font-size: 0.6em;
+	font-family: 'Lato', sans-serif;
+	color: #A9A9A9;
+	margin: 10px;
+	padding-bottom: 2em;
+
+}
+
+.button{
+
+font-size: 0.8em;
+	font-family: 'Lato', sans-serif;
+	color:white;
+	border-radius: 2em;
+	background-color: #3CB371;
+	padding: 10px 80px;
+	border: 0;
+}
+
+.option-form__h4{
+
+		font-size: 1em;
+	font-family: 'Righteous', cursive;
+	color: #000;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.imagenes__img{
+	width: 80px; height: 80px;
+	margin-bottom: 10px;
+}
+
+.imagenes2__img{
+	width: 116px; height: 78px;
+	margin-bottom: 10px;
+}
+
+.precio__span{
+	font-size: 2.4em;
+	font-family: 'Lato', sans-serif;
+	margin-top: 0px;
+}
+
+.button-box{
+	box-shadow: 2px 2px 5px #999;
+	border-radius: 2em;
+	box-sizing: content-box;
+	width: fit-content;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 900px){
+
+	
+	.contenido{
+		flex-direction: row;
+		width: 100%;
+	}
+}
+	
+
